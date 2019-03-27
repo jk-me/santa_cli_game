@@ -1,0 +1,47 @@
+Game Walkthrough
+------------------------
+This is the fastest way to get through the game.
+Commands written in single quotes. ('')
+Starred * steps are not required but reveal valuable clues to solving the game.
+All commands are case sensitive and must be typed exactly as shown.
+
+------------------------
+
+1. Go ‘dumpster diving’ and take the following items: ‘take orange’ ‘take hairpin’ ‘take rock’ ‘take paper’
+*'look old newspaper' to gain a clue.
+
+2. Go to the main street: ‘back’ to alley, then ‘to main street’
+3. ‘talk’ to mother to start feed child mission, and ‘use orange’ to complete mission
+
+4. ‘talk’ to mother again to start mission to gather a cabbage patch kid doll
+5. Go to the second floor of the fire escape: ‘alley’ , ‘climb fire escape’ , 'two'
+6. 'break window' and get captured 'talk' to elf repeatedly until he asks you to give him something. 'give rock' and you will gain elfID in your inventory. You end up in the alley.
+
+7. Go to the third floor 'climb fire escape' , 'three'.
+*8. 'inspect muddy tracks' and take it when prompted 'y' , you will gain fertilizer in your inventory
+9. 'talk' to the elf and 'give paper' to him. He will give you candy canes (and an important clue)
+
+10. Go to the second floor again 'another level' , 'two'. 'use hairpin' to unlock the window and enter the factory.
+11. 'inspect fridge' and take the plate of butter when prompted 'y'
+*12. 'talk' to the elf, 'give fertilizer' to him to gain an important clue.
+
+13. Go 'back' to the fire escape. Go to the 'alley' and go 'dumpster diving'. Since you have butter, you can now 'take butter knife'
+
+14. Go to the third floor of the fire escape. 'swipe elfid' to enter Santa's room. If you have candy canes, butter, and a butter knife in your inventory, you will be prompted to combine them 'y'. You will gain a sword in your inventory. You end up on the third floor.
+
+15. Go to 'another level' and go to the 'roof'
+16. 'poke' Santa. Take his keys 'y'. You end up on the fire escape
+17. Go to the second level and 'use hairpin' to go into the factory again.
+18. Take 'stairs' to go to the generator room.
+
+19. Enter the password 'oxygenhydrogensulfursodiumphosphorus' (It comes from today's newspaper headline from the dumpster spelled out with periodic table elements, which Santa thoroughly enjoys as stated by the elves)
+20. 'use keys' to turn off the generator. Go 'back' to the factory.
+
+21. 'inspect cabbage patch' and 'take cabbage'. You gain a cabbage in your inventory.
+22. Go to the main street again. 'back' , 'alley' , 'to main street'
+
+23. 'talk' to the mother. You will gain a battery in your inventory. You end up in the alley again.
+24. 'use battery' to power your time machine and go home.
+--GAME OVER--
+
+Note: If you end up in the dungeon at any time, 'talk' to the elf repeatedly until your "time" is up and he will release you.
