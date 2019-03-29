@@ -93,7 +93,7 @@ def futurealley():
     print("You find yourself surrounded by a heap of trash bags in a filthy, deserted alleyway.Your time machine is here, but you cannot return home since it is out of power. Maybe you can 'use' something to power it?"+"\n")
     print("Or you can go 'dumpster diving', 'to main street' or 'climb fire escape'?"+"\n")
     print("Type 'check' to see your inventory at any point in the game"+"\n")
-    print("Press ctrl+c to quit (no saving!) at any point in the game"+"\n")
+    print("Type 'exit' to quit (no saving!) at any point in the game"+"\n")
     while True:
         blah=input('>>').strip().lower()
         if blah=='dumpster diving':
@@ -121,7 +121,7 @@ def dumpster():
     while True:
         b=input('>>').strip().lower()
         if b=='look old newspaper':
-            print('The date is December 26, 3012. Headlines: Oh snap!'+'\n')
+            print('The date is December 26, 3012. Headlines: OH SNaP!'+'\n')
         elif b=='take hairpin':
             print('got it'+'\n')
             inventory.hairpin=True
