@@ -89,7 +89,7 @@ def check():
 
 
 def futurealley():
-    print("--------------------------------------------"+"\n")
+    print("--------------------------------------------")
     print("You find yourself surrounded by a heap of trash bags in a filthy, deserted alleyway.Your time machine is here, but you cannot return home since it is out of power. Maybe you can 'use' something to power it?"+"\n")
     print("Or you can go 'dumpster diving', 'to main street' or 'climb fire escape'?"+"\n")
     print("Type 'check' to see your inventory at any point in the game"+"\n")
@@ -115,7 +115,7 @@ def futurealley():
 
 
 def dumpster():
-    print("--------------------------------------------"+"\n")
+    print("--------------------------------------------")
     print("You climb into a dumpster and find that you have landed in another pile of garbage. You see the following:'old newspaper','hairpin','butter knife','orange','rock','paper','scissors'")
     print("You can try to 'take' or 'look' at an item or type 'back' to go back to alley."+"\n")
     while True:
@@ -153,7 +153,7 @@ def dumpster():
 
 
 def mainst():
-    print("--------------------------------------------"+"\n")
+    print("--------------------------------------------")
     print("You see a crowd of people lined up outside 'Santa's Workshop'. A little girl is sleeping in her stroller.")
     print("go to 'alley' or 'talk' to her mom"+'\n')
     while True:
@@ -167,18 +167,22 @@ def mainst():
                 inventory.heart=True
                 futurealley()
             elif event.feed==False:
+                print("--------------------------------------------")
                 print("Help stranger! My daughter hasn't eaten in days, but we can't leave or else we won't be first in line when Santa's Workshop opens."+'\n')
                 print("'use' something to help her")
                 o=input('>>').strip().lower()
                 if inventory.orange==True and o=='use orange':
                     event.feed=True
+                    inventory.orange=False
+                    print("--------------------------------------------")
                     print('Thank you so much!'+'\n')
                     mainst()
                 else:
                     print("that's not food. thanks for nothing"+'\n')
                     mainst()
             elif event.feed==True and event.cabbages==False:
-                print("we have been waiting here for days to purchase the new cabbage patch kids in time for Christmas...but Santa has been naughty this year, and didn't produce them on time")
+                print("--------------------------------------------")
+                print("We have been waiting here for days to purchase the new cabbage patch kids in time for Christmas...but Santa has been naughty this year, and didn't produce them on time")
                 print("I need you to get me a cabbage patch kid as soon as possible, or else my daughter might die from exhaustion if we wait here much longer"+'\n')
                 print("The elves have barred the front doors. You'll have to find another way in."+'\n')
                 event.cabbages=True
