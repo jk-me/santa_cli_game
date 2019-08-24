@@ -1,6 +1,8 @@
 # santa_cli_game
 
-A CLI role-playing game created in Python. [Repl](https://repl.it/@jkam17/santacligame)
+A CLI role-playing game created in Python. 
+
+Available on [Repl](https://repl.it/@jkam17/santacligame). (You may need to stop and rerun to see full instructions.)
 
 Summary: You have time traveled to a future in which an evil Santa Claus terrorizes local civilians. You must explore your surroundings and gather the necessary materials to defeat him, save the townspeople and return home.
 
